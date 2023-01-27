@@ -1,6 +1,5 @@
-# #!/bin/bash
+# #!/usr/bin/env bash
 ## The  project shows on  how one can be able to navigate through the shell.
-
 
 
 ## My article on  I/O Redirection, The Shell Filters and Shell Expansion
