@@ -7,6 +7,5 @@
 content=$(ls)
 for files in $content
 do
-	name=$(echo $files | cut -f2 -d "-")
-	echo "$name"
+	echo "$files" | cut  -d "-"  -f 2
 done
