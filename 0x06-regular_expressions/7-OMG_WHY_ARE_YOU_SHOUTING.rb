@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 #only matching: capital letters
 
-puts scan.(/[A-Z]/).join
+putS ARGV[0].scan.(/[A-Z]/).join
