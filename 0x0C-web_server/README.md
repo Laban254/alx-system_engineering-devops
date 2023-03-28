@@ -3,6 +3,8 @@
 <p align="center">
   <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/8Gu52Qv.png" />
 </p>
+<a href="https://www.youtube.com/watch?v=AZg4uJkEa-4&amp;feature=youtu.be&amp;hd=1" target="_blank"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/Screenshot+2017-07-06+19.24.05.png" alt="" loading="lazy" style=""></a>
+
 
 ## Resource
 
@@ -10,6 +12,7 @@
 <summary><a href="https://www.gnu.org/software/libc/manual/html_node/Processes.html#Processes">Child Process</a></summary><br>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/bw6hYBS5/image.png' border='0' alt='image'/></a>
 </details>
+
 
 - [Background contenxt](https://www.youtube.com/watch?v=AZg4uJkEa-4)
 - [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
