@@ -1,17 +1,44 @@
-## Requirements
+# 0x0A. Configuration management
 
-## General
+## Resource
 
-All your files will be interpreted on Ubuntu 20.04 LTS
+- [Intro to Configuration Management](https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
+- [Puppet resource type: file](https://puppet.com/docs/puppet/5.5/types/file.html) (*Check "Resource types" for all manifest types in the left menu*)
+- [Puppet’s Declarative Language: Modeling Instead of Scripting](https://puppet.com/blog/puppets-declarative-language-modeling-instead-of-scripting/)
+- [Puppet lint](http://puppet-lint.com/)
+- [Puppet emacs mode](https://github.com/voxpupuli/puppet-mode)
+- [Puppet CookBook](https://www.puppetcookbook.com/)
 
-All your files should end with a new line
+## Installing `puppet` and `puppet-lint`
 
-A README.md file at the root of the folder of the project is mandatory
+```sh
+# installing puppet and puppet-lint
+wget https://apt.puppet.com/puppet7-release-focal.deb && \
+    dpkg -i puppet7-release-focal.deb && \
+    apt-get update && \
+    apt-get install puppet-agent puppet-lint -y
 
-Your Puppet manifests must pass puppet-lint version 2.1.1 without any errors
+# confirming installation
+puppet -V
+puppet-lint -v
 
-Your Puppet manifests must run without error
+# If you get an error saying puppet command not found, source the path
+source /etc/profile.d/puppet-agent.sh
+```
 
-Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about
+## Tasks
 
-Your Puppet manifests files must end with the extension .pp
+<details>
+<summary><a href="./0-create_a_file.pp">0. Create a file</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NM2k46hX/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./1-install_a_package.pp">1. Install a package</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PqVvKj7c/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./2-execute_a_command.pp">2. Execute a command</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/CxZFC13P/image.png' border='0' alt='image'/></a>
+</details>
