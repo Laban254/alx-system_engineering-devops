@@ -79,14 +79,4 @@
 </ul>
 </details>
 
-<details>
-<summary><a href="./102-zombie.c">12. Zombie</a></summary><br>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ry1qKz2Y/image.png' border='0' alt='image'/></a>
-<ul>
-  <li>Links from screenshot
-  <ul>
-      <li><a href="https://zombieprocess.wordpress.com/what-is-a-zombie-process/">what a zombie process is</a></li>
-  </ul>
-  </li>
-</ul>
-</details>
+
