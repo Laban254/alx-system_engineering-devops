@@ -33,18 +33,15 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-frontend myfrontend-http
-        bind *:80
-        mode http
-        http-request set-header X-Forwarded-Proto http
-        default_backend myservers-backend
-
-frontend myfrontend-https
+frontend myfront
+	bind :80
         bind *:443 ssl crt /etc/haproxy/certs/www.labankibet.tech.pem
-        http-request set-header X-Forwarded-Proto https
-        default_backend myservers-backend
+	mode http
+	http-request redirect scheme https code 301 unless { ssl_fc }
+        default_backend mybackend
 
-backend myservers-backend
+backend mybackend
         balance roundrobin
-        server web-01 54.144.221.234:80 check
-        server web-02 100.26.154.245:80 check
+        server web-01 100.25.160.128:80 check
+        server web-02 35.175.104.141:80 check
+        http-request set-header X-Forwarded-Proto https
