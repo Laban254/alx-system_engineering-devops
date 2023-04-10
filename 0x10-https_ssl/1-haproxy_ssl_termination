@@ -34,10 +34,10 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 frontend myfront
-	bind :80
+        bind :80
         bind *:443 ssl crt /etc/haproxy/certs/www.labankibet.tech.pem
-	mode http
-	http-request redirect scheme https code 301 unless { ssl_fc }
+        mode http
+        http-request redirect scheme https code 301 unless { ssl_fc }
         default_backend mybackend
 
 backend mybackend
