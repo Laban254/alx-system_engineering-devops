@@ -46,5 +46,5 @@ frontend ehoneah-frontend-https
 
 backend mybackend
         balance roundrobin
-        server web-01 100.25.160.128:80 check
-        server web-02 35.175.104.141:80 check
+        server 6544-web-01 100.25.160.128:80 check
+        server 6544-web-02 35.175.104.141:80 check
