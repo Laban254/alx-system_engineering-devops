@@ -30,6 +30,7 @@ Resources
 
 -   [Incident Report, also referred to as a Postmortem](https://alx-intranet.hbtn.io/rltoken/vkEjk-M6yBWW-wyB-7-I9Q "Incident Report, also referred to as a Postmortem")
 -   [How to run a Postmortem](https://alx-intranet.hbtn.io/rltoken/pzE_VO7Bfe49K_MhkOyzdQ "How to run a Postmortem")
+-   
 
 More Info
 ---------
@@ -105,7 +106,7 @@ Please, remember that these blogs must be written in English to further your tec
 
 Save
 
-1.  <https://docs.google.com/document/d/1cc0O4o23eA4JnANrhi_cxkJIuysUhEKhO4Bc9Oaoua8/edit?usp=sharing> Remove
+1.  <> Remove
 
 **Repo:**
 
