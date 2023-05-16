@@ -33,6 +33,9 @@ Concepts
 
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/9/c7d1ed0a2e10d1b4e9b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230516%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230516T040605Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ee841b4b8bf32acb3381df7d31b3ec77980f98cb64d4d6f90022f73f2326429c)
 
+![appliocatin server](https://github.com/Laban254/alx-system_engineering-devops/assets/64686919/2bf48759-5fc8-4f5d-b730-2ecc4112c839)
+
+
 Background Context
 ------------------
 
