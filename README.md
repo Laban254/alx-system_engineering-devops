@@ -6,7 +6,7 @@
 
 ## About
 
-- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [laban254].
+- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [laban254](https://github.com/Laban254).
 
 ---
 
@@ -30,3 +30,11 @@
 - [0x11](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) : What happens when you type holbertonschool.com in your browser and press Enter.
 - [0x12](./0x12-web_stack_debugging_2) : Web stack debugging #2.
 - [0x13](./0x13-firewall) : Firewall.
+- [0x14](./0x14-mysql) : MySQL.
+- [0x15](./0x15-api) : API.
+- [0x16](./0x16-api_advanced) : API advanced.
+- [0x17](./0x17-web_stack_debugging_3) : Web stack debugging #3.
+- [0x18](./0x18-webstack_monitoring) : Webstack monitoring.
+- [0x19](./0x19-postmortem) : Postmortem.
+- [0x1A](./0x1A-application_server) : Application server.
+- [0x1B](./0x1B-web_stack_debugging_4) : Web stack debugging #4.
