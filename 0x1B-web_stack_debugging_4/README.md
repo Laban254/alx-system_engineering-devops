@@ -4,7 +4,7 @@
 -   By Sylvain Kalache, co-founder at Holberton School
 -   Weight: 1
 
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/313/frdkCrb.jpg)
+ ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/313/frdkCrb.jpg)
 
 Requirements
 ------------
@@ -27,6 +27,10 @@ $ apt-get install -y ruby
 $ gem install puppet-lint -v 2.1.1
 
 ```
+
+## Resources 
+-  [How to Use Apache Bench to Load Test Your Website](https://www.youtube.com/watch?v=2kpd7HceFz4)
+-  [Benchmarking using ApacheBench ab](https://www.youtube.com/watch?v=7KtbiFt_g5E)
 
 Tasks
 -----
